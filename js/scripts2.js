@@ -1,22 +1,16 @@
 $(document).ready(function() {
+  $("#infos").onclick(function(event) {
+  prevent.Eventdefault
+  console.log ("IT WORKS");
+  var personInput = $("input#person").val();
+  var reasonInput = $("input#address").val();
+  var dateInput = $("input#email").val();
+  var stedInput = $("input#phone").val();
 
-  $("button").click(function(){
-    $(".tabcontent").hide();
-  })
-
-  $("button.click1").click(function() {
-      $("#java").fadeToggle();
-
-   });
-
-  $("button.click2").click(function() {
-      $("#Csp").fadeToggle();
-
-   });
+    $(".name").text(nameInput);
+    $(".address").text(addressInput);
+    $(".email").text(emailInput);
+    $(".phone").text(phoneInput);
 
 
-  $("button.click3").click(function() {
-    $("#ruby").fadeToggle();
-
-  });
 });

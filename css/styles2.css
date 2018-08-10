@@ -1,0 +1,42 @@
+body {
+  background-image:url(https://media.giphy.com/media/lk2AWSyLr9LOw/giphy.gif);
+  background-size: cover;
+}
+
+h1
+{
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: color;
+}
+
+.icon {
+  float: left;
+}
+
+
+.btn{
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.one {
+  color: Yellow;
+}
+
+.two {
+  color: Yellow;
+}
+
+.three {
+  color: Yellow;
+}
+
+.four {
+  color: Yellow;
+}
