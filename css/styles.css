@@ -1,13 +1,28 @@
-#mon {
+#java {
   display: none;
 }
 
-#lio {
+.jpic {
+  height: 250px;
+  width: 350px;
+}
+
+#Csp{
   display: none;
 }
 
-#tig {
+.csp {
+  height: 250px;
+  width: 350px;
+}
+
+#ruby {
   display: none;
+}
+
+.ruby {
+  height: 250px;
+  width: 350px;
 }
 
 h1 {
