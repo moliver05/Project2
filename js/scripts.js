@@ -4,27 +4,29 @@ $(document).ready(function() {
   alert("No options cuz, I know you wantcha ;)");
   alert("See the hidden tabs below for");
   alert("MAGIC!");
+
+    $(".btn").click(function(event){
+    $(".tabcontent").hide();
+    event.preventDefault
 });
 
-$("button").click(function(){
-  $(".tabcontent").hide();
-})
-
-$("button.click1").click(function() {
+    $(".btn#click1").click(function(event) {
     $("#java").fadeToggle();
-
- });
-
-$("button.click2").click(function() {
-    $("#Csp").fadeToggle();
-
- });
-
-
-$("button.click3").click(function() {
-  $("#ruby").fadeToggle();
-
+    event.preventDefault
 });
+
+    $(".btn#click2").click(function(event) {
+    $("#Csp").fadeToggle();
+    event.preventDefault
+});
+
+  $(".btn#click3").click(function(event) {
+  $("#ruby").fadeToggle();
+  });
+});
+
+
+//
 // back-end
 // var personInput = $("input#person").val();
 // var reasonInput = $("input#address").val();
