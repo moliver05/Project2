@@ -27,47 +27,45 @@ $(document).ready(function() {
 // back-end
 
 // Survey
-    $(".btn2#result").click(function(event) {
-      // $(".btn#result").click(function(event) {
+    $("#survey").submit(function(event) {
         event.preventDefault();
         var Questionaires = $("input:radio[name=choice]:checked").val();
-        if ("#Question1" === "one") {
+        if (Questionaires === "one") {
           alert("C# is for You!");
         }
-        else if ("#Question2" === "two") {
+        else if (Questionaires === "two") {
           alert("you can do Java!");
         }
-        else if ("#Question3" === "three") {
+        else if (Questionaires === "three") {
           alert("you can do Ruby!");
         }
 
-    // });
+
+});
+
+        $("#nexxt").click(function(event) {
+          event.preventDefault();
+          $("#frontpage").hide();
+          $("#backpage").show();
+
+});
+
+
+// Sign up
+
+$("form#infos").submit(function(event) {
+event.preventDefault();
+
+  var personInput = $("input#person").val();
+  var addressInput = $("input#address").val();
+  var emailInput = $("input#email").val();
+  var phoneInput = $("input#phone").val();
+
+  $("#person").text(personInput);
+  $("#address").text(addressInput);
+  $("#email").text(emailInput);
+  $("#phone").text(phoneInput);
+
+
   });
 });
-//         $(".btn2#nexxt").click(function(event) {
-//           event.preventDefault();
-//           $("#frontpage").hide();
-//           $("#backpage").show();
-//
-// });
-
-
-//Sign up
-
-// $("#infos").submit(function(event) {
-// event.preventDefault();
-//
-//   var personInput = $("input#person").val();
-//   var addressInput = $("input#address").val();
-//   var emailInput = $("input#email").val();
-//   var phoneInput = $("input#phone").val();
-//
-//   $("#person").text(personInput);
-//   $("#address").text(addressInput);
-//   $("#email").text(emailInput);
-//   $("#phone").text(phoneInput);
-//
-//   return(result);
-//
-//   });
-// });

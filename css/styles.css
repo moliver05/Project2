@@ -9,15 +9,12 @@ a:hover {
       color: black;
 }
 
-.next {
-        background-color: #4CAF50;
-        color: white;
-}
 
 .btn1 {
   border: solid; color: black;
   background-color: pink;
 }
+
 body {
 background-image:url('https://media.giphy.com/media/TIyJGNK325XGciFEnI/giphy.gif');
 background-size: cover;
@@ -62,18 +59,19 @@ h2 {
 
 h3 {
   text-align: left;
-  color: red;
+  color: gold;
 }
 .icon {
   float: left;
 }
 
 
-.btn2{
+.btn2 {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: 1px solid #ccc;
 }
+
 #jumbo {
   background-color: yellow;
 }
