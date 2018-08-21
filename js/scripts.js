@@ -53,7 +53,7 @@ $(document).ready(function() {
 
 // Sign up
 
-$("form#infos").submit(function(event) {
+$("#infos").submit(function(event) {
 event.preventDefault();
 
   var personInput = $("input#person").val();
@@ -61,11 +61,7 @@ event.preventDefault();
   var emailInput = $("input#email").val();
   var phoneInput = $("input#phone").val();
 
-  $("#person").text(personInput);
-  $("#address").text(addressInput);
-  $("#email").text(emailInput);
-  $("#phone").text(phoneInput);
-
+  alert("Submitted");
 
   });
 });

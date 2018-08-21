@@ -9,7 +9,6 @@ a:hover {
       color: black;
 }
 
-
 .btn1 {
   border: solid; color: black;
   background-color: pink;
@@ -86,4 +85,8 @@ h3 {
 
 #nexxt {
   vertical-align: middle;
+}
+
+.letters {
+  color: white;
 }
