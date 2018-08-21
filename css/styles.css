@@ -14,7 +14,7 @@ a:hover {
         color: white;
 }
 
-.btn {
+.btn1 {
   border: solid; color: black;
   background-color: pink;
 }
@@ -52,5 +52,40 @@ background-size: cover;
 
 h1 {
   text-align: center;
+  color: purple;
+}
+
+h2 {
+  text-align: center;
+  color: brown;
+}
+
+h3 {
+  text-align: left;
+  color: red;
+}
+.icon {
+  float: left;
+}
+
+
+.btn2{
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+#jumbo {
+  background-color: yellow;
+}
+
+#backpage {
+  display: none;
+}
+
+.fontco {
   color: white;
+}
+
+#nexxt {
+  vertical-align: middle;
 }

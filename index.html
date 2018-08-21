@@ -8,7 +8,7 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-      <div class="container">
+    <div class="container">
       <h1><strong>Course Tracker</strong></h1>
       <hr>
       <!-- start -->
@@ -21,7 +21,7 @@
          </div>
 <!-- 1 -->
              <div class="tab" class="panel-heading" class="panel-body">
-               <button class="btn" id="click1">Java</button>
+               <button class="btn1" id="click1">Java</button>
              </div>
              <div id="java" class="tabcontent">
                <ul>
@@ -44,7 +44,7 @@
           </div>
 <!-- 2 -->
               <div class="tab" class="panel-heading" class="panel-body">
-                <button class="btn" id="click2">C#</button>
+                <button class="btn1" id="click2">C#</button>
               </div>
              <div id="Csp" class="tabcontent">
                <ul>
@@ -73,7 +73,7 @@
 
             <!-- section 3 -->
                  <div class="tab" class="panel-heading" class="panel-body">
-                   <button class="btn" id="click1">Ruby</button>
+                   <button class="btn1" id="click3">Ruby</button>
                  </div>
              <div id="ruby" class="tabcontent">
                <ul>
@@ -90,41 +90,42 @@
           </div>
         </div>
       </div>
-  <hr>
+  </div>
+</div>
   <br>
-
+<hr>
   <!-- Part 2 - Survey-->
-      <h2>Here are some questions for you to help you consider the right track!</h2>
+      <div class="jumbotron" id="jumbo">
+        <h2>Do you have what it takes?</h2>
+      </div>
             <form id="survey">
-              <p>Pick the answer of your choice!:</p>
+              <h3>Pick the answer of your choice!</h3>
               <!-- quest1-->
               <div class="radio">
                   <label>
-                    <input type="radio" name="choice" value="one">
-                    Do you like the idea of working for a larger company on business software?
+                    <input type="radio" id="Question1" name="choice" value="one">
+                    <p class="fontco">Do you like the idea of working for a top-notch company and carry its pride?</p>
                   </label>
                 </div>
                 <!-- quest 2 -->
                 <div class="radio">
                   <label>
-                    <input type="radio" name="choice" value="two">
-                    Are you interested in building interactive web applications?
+                    <input type="radio" id="Question2" name="choice" value="two">
+                    <p class="fontco">Are you interested in building interactive web applications?</p>
                   </label>
                 </div>
                 <!-- qeust 3 -->
                 <div class="radio">
                   <label>
-                    <input type="radio" name="choice" value="three">
-                     Do you like to work for a fast paced agency that builds websites for lots of clients?
+                    <input type="radio" id="Question3" name="choice" value="three">
+                     <p class="fontco">Are you up for a challenge that consists of heavy coding and get a lot of work done?</p>
                   </label>
                 </div>
-
-                <!-- end-->
-
-
-                <button id="submit" type="button" id="btn btn-warning">Get result</button>
+                <button class="btn2" id="result">Result</button>
             </form>
 
+            <!-- Next Page -->
+  <button type="btn2" id="nexxt">Next</button>
 
     <!-- PART 2 for Sign UP -->
     <div id="backpage">
@@ -134,24 +135,23 @@
       <div id="infos">
         <form>
           <div class="form-group">
-            <label for="person" class="one">Name</label>
+            <label for="person">Name</label>
             <input id="person" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="address" class="two">Address</label>
+            <label for="address">Address</label>
             <input id="address" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="email" class="three">Email</label>
+            <label for="email">Email</label>
             <input id="email" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="phone" class="four">Phone #</label>
+            <label for="phone">Phone #</label>
             <input id="phone" class="form-control" type="text">
           </div>
-
-          <button type="submit" id="btn">Submit</button>
         </form>
+          <button type="btn2" id="result">Submit</button>
       </div>
     </div>
 <hr>
@@ -159,6 +159,5 @@
         <img src="https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57cf3de246c3c4d2933aa57c/1533927045690/?format=1500w" alt="Epicodus | A vocational school for aspiring programmers">
       </div>
 <!-- END  -->
-</div>
   </body>
 <html>
